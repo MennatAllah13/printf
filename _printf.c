@@ -5,7 +5,7 @@
  * @format: input string.
  * Return: number of char printed.
  */
-int print_f(const char *format, ...)
+int _printf(const char *format, ...)
 {
 	unsigned int i = 0, len = 0, ind = 0;
 	va_list arg;
